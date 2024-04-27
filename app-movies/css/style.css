@@ -4,6 +4,7 @@ padding: 0;
 margin:  0;
 }
 
+
 /* stiles of header*/
 header{
   position:fixed;
@@ -47,6 +48,7 @@ color: white;
     align-content: center;
      text-align: center;
       color: white;
+    
   }
     .letras{
       color: white;
@@ -74,8 +76,29 @@ color: white;
 font-family: "Nunito", sans-serif;
 }
 
+.cards{
+   position:relative;
+  display:flex;
 
-
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card{
+                    width: 200px;
+                    height: 300px;
+                    position: relative;
+                    overflow: hidden;
+                    border-radius: 10px;
+                    transition: all 0.5s ease;
+                    margin: 20px 20px 20px 20px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
 
 
 
