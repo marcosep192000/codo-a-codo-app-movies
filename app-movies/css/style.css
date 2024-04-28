@@ -3,7 +3,15 @@ box-sizing: border-box;
 padding: 0;
 margin:  0;
 }
+.hr{
 
+ height: 20px;
+  background-color:#9f3647; 
+}
+.body{
+     background-color: #181419;
+    color: white;
+}
 
 /* stiles of header*/
 header{
@@ -74,17 +82,18 @@ color: white;
 
 .title{
 font-family: "Nunito", sans-serif;
+font-size: 4rem;
 }
 
 .cards{
    position:relative;
   display:flex;
-
-  background-color: black;
+  background-color: #181419;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction:row;
 }
 .card{
                     width: 200px;
@@ -93,7 +102,112 @@ font-family: "Nunito", sans-serif;
                     overflow: hidden;
                     border-radius: 10px;
                     transition: all 0.5s ease;
-                    margin: 20px 20px 20px 20px;
+                    margin: 20px 60px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+/*buscador*/
+.buscador{
+  background-color: #181419;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+   padding: 60px 0px 60px 0px ;
+   
+}
+.btn-search{
+ border-radius: 200px ;
+ width: 80px;
+ height: 40px;
+ background-color: #9f3647;
+ color:white;
+ border-color: white;
+}
+.txt-search{
+   border-radius: 200px ;
+ width: 300px;
+ height: 40px;
+ background-color:white;
+ color:black;
+ border-color: white;
+ margin-right: 10px;
+}
+.title-section{
+ font-family: "Nunito", sans-serif;
+}
+
+.paginator{
+  padding: 50px 50px;
+  background-color: #181419;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn-paginator{
+            border-radius: 5px;
+            border: 1px solid white;
+            box-sizing: content-box;
+            margin-top:50px;
+            margin-left:20px;
+            background-color:#9f3647;
+            color: #ffffff;
+            padding: 1rem 1rem;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            margin-bottom:60px;
+             /* Agregar efecto de botón presionado */
+             transition: transform 0.3s, box-shadow 0.3s;
+             &:hover {
+                 background-color: #9f3647;
+                 transform: scale(0.95);
+                 box-shadow: 0 0 10px rgba(12, 10, 10, 0.3);
+             }
+          }
+
+/* aclamadas*/
+
+.txt-aclamadas{
+
+  font-family: "Nunito", sans-serif;
+  color:white
+}
+
+.aclamadas{
+   background-color: #181419;
+   
+}
+
+.cards-aclamadas{
+   position:relative;
+  display:flex;
+ 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction:row;
+}
+.card-aclamadas{
+                    width: 200px;
+                    height: 300px;
+                    position: relative;
+                    overflow: hidden;
+                    border-radius: 10px;
+                    transition: all 0.5s ease;
+                    margin: 10px 30px;
 }
 img{
   width: 100%;
@@ -109,71 +223,41 @@ img{
 
 
 
+/*footer*/
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-.container-fluid{
-  width: 100%;
-  border: 1px solid #9f3647;
+footer{
   background-color: #9f3647;
-  display: flex; 
-  align-items: center;
-  justify-content:space-between; 
-  flex-wrap:wrap;
-}
-
-.btn-container{
+ color:white ; 
  display: flex;
- align-items: center;
- margin-top: 13px;
-}
-
-.btn-header{
-padding: 10px 20px 10px 20px;
-color: white;
-background-color:black;
-border-radius: 8px; 
-border-style: none;
-list-style: none;
-}
-
-
-.btn-header:hover {
- box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.8);
-  background-color: transparent;
-}
-.btn-tendencias ,.btn-registrase {
- margin-left: 20px;
-padding: 10px 20px 10px 20px;
-background-color: transparent;
-border: none;
-border-radius: 8px; 
-list-style: none;
-color: white;
-}
-
-.btn-tendencias:hover ,.btn-registrase:hover {
-
-box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.8);
 
 }
-
-
-.logo{
-  margin-right: 30px;
+.nav-list {
+  display: flex;
+  align-content: center;
+padding: 20px 20px ;
+}
+ .nav-list .list-item{
+  padding: 20px 20px ;
   text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  color: #ffffff;
 }
- */
-/*fin heder*/
 
-/* */
+
+
+
+
+
+ 
+
+  /*  . {
+        display: flex;
+        flex-direction: column;  Hace que los elementos estén uno debajo del otro 
+        align-items: center;  Centra los elementos verticalmente 
+    }/*
+
+   
+
+
+
