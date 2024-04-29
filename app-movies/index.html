@@ -10,16 +10,23 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
         rel="stylesheet">
+          <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>CAC-MOVIES</title>
 </head>
-
-<body>
+<style>
+  
+</style>
+  
+<body style="background-color:#181419 ;">
     <header class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <div class=" d-flex justify-content-between d-flex flex-wrap">
                     <ul class="logo-container d-flex align-items-center">
-                        <li class="logo">CACA-Movies</li>
+                        <li class="logo animate__animated animate__bounce">CACA-Movies</li>
                     </ul>
                     <ul class="btn-container d-flex align-items-center">
                         <li class="btn-tendencias">Tendencias</li>
@@ -37,23 +44,25 @@
             <h1 class="title"><strong>En un sólo lugar</strong></h1>
             <h3>Disfruta donde quieras.</h3>
             <h3>
-                <p>Cancela en cualquier momento.</p>
+                <p class="animate__animated animate__bounce">Cancela en cualquier momento.</p>
             </h3>
             <button class="btn-registrar">Registrate</button>
         </div>
     </article>
 
     <section class="buscador">
-        <h2 class="title-section">¿Qué estás buscando para ver?</h2>
+        <h1 class="title-section">¿Qué estás buscando para ver?</h1>
         <form class="buscadorPeliculas">
-            <input class="txt-search" type="text" placeholder="Buscar..." id="buscar" name="buscar">
+            <input class="txt-search" type="text" placeholder="    Buscar..." id="buscar" name="buscar">
             <input class="btn-search" type="submit" value="Buscar">
         </form>
+   
+  
     </section>
 
 
-    <article class="container-fluid cards">
-   
+    <article class="container cards">
+    <div class="hr"></div>
     <div class="card">
             <div class="card-body">
                 <img src="../app-movies/image/americanPie.jpg" alt="americanPie">
@@ -66,6 +75,24 @@
                 <p class="card-text">American Pie</p>
             </div>
         </div>
+         <div class="card">
+            <div class="card-body">
+                <img src="../app-movies/image/americanPie.jpg" alt="americanPie">
+                <p class="card-text">American Pie</p>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-body">
+                <img src="../app-movies/image/americanPie.jpg" alt="americanPie">
+                <p class="card-text">American Pie</p>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-body">
+                <img src="../app-movies/image/americanPie.jpg" alt="americanPie">
+                <p class="card-text">American Pie</p>
+            </div>
+        </div>
         <div class="card">
             <div class="card-body">
                 <img src="../app-movies/image/americanPie.jpg" alt="americanPie">
@@ -115,14 +142,22 @@
         </div>
     </article>
 
-    <section class="container-fluid paginator">
+    <section class="container paginator">
             <button class="btn-paginator">Anterior</button>
             <button class="btn-paginator">Siguiente</button>
-    </section>
-<hr>
- <article class="container-fluid aclamadas">
+   
+   
+        </section>
+
+ <article class="container aclamadas">
+<div class="hr">
+     
+</div>
+
  <h1 class="txt-aclamadas d-flex justify-content-center p-4">Las Más Aclamadas</h1>
-       <div class="cards-aclamadas">
+
+ 
+ <div class="cards-aclamadas">
      
         <div class="card-aclamadas">
             <div class="card-body">
@@ -158,17 +193,13 @@
        </div>
     </article>
 
-
-
-
-
     <article>
 
     </article>
 
 
 
-    <footer class="footer">
+    <footer class="container-fluid">
         <nav class="nav-footer">
             <ul class="nav-list">
                 <li class="list-item"><a class="link-nav" href="">Términos y condiciones</a></li>
