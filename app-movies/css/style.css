@@ -8,7 +8,7 @@ margin:  0;
 
 .hr{
 
- height: 20px;
+ height: 10px;
   background-color:#9f3647; 
 }
 
@@ -37,6 +37,18 @@ color: white;
   
 }
 
+.btn-registrarse{
+  list-style: none;
+   margin-left: 20px;
+padding: 10px 20px 10px 20px;
+background-color: transparent;
+border: none;
+border-radius: 8px; 
+list-style: none;
+color: white;
+text-decoration: none;
+}
+
 /* botones izquierda */
 .logo{
  list-style: none;
@@ -48,7 +60,7 @@ color: white;
 .portada{
  
    width: 100%;
-    height:500px; /* Ajusta la altura según tus necesidades */
+    height:500px;
     background-image: url('../image/portadaUnSoloLugar.webp');
     background-size: cover;
     background-position: center;
@@ -90,7 +102,7 @@ font-size: 4rem;
 }
 
 .cards{
-  position:relative;
+  position:sticky;
   display:flex;
   background-color: #181419;
   flex-wrap: wrap;
@@ -126,7 +138,7 @@ img{
   flex-direction: column;
   align-items: center;
   color: white;
-   padding: 60px 0px 60px 0px ;
+   padding: 60px 10px 10px 0px ;
    
 }
 .btn-search{
