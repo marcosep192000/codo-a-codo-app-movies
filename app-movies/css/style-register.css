@@ -7,10 +7,6 @@ body {
 background-image: url('../image/image-register.jpg');
     background-color: #181419;
 }
-
-
-
-
 .cards{
   display:flex;
   background-color:transparent;
@@ -23,6 +19,7 @@ background-image: url('../image/image-register.jpg');
    
 display: block;
 }
+
 
 .card{
     width: 500px;
@@ -38,11 +35,9 @@ display: block;
     padding-bottom: 30px;
 
 }
-
 h1{
     padding-bottom: 20px ;
 }
-
 .btn-registar{
     border-radius: 10px;
  width: 80%;
@@ -50,10 +45,9 @@ h1{
  background-color: #9f3647;
  color:white;
  border-color: white;
-
 }
 .txt-search{
-   border-radius: 200px ;
+border-radius: 200px ;
  width: 400px;
  height: 40px;
  background-color:#221924a8;
