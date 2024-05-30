@@ -3,16 +3,22 @@
   padding: 0;
   margin: 0;
 }
-.hr {
-  height: 10px;
-  background-color: #9f3647;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* stiles of header*/
-header {
-  position: fixed;
-  border: 1px solid #9f3647;
-  background-color: #9f3647;
-}
+
+
 /* botones derecha */
 .btn-tendencias,
 .btn-registrase,
@@ -25,10 +31,6 @@ header {
   border-radius: 8px;
   list-style: none;
   color: white;
-}
-
-.btn-header {
-  list-style: none;
 }
 
 .btn-registrarse {
@@ -246,45 +248,34 @@ img {
 
 @media screen  and (max-width: 650px) {
   /*   <-------------------------- stiles of header ------------------------>   */
-  header {
- 
-  }
+
+ .navegacion{
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+ }
+ .lista{
+  display: flex;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* botones derecha */
 
-  .btn-tendencias,
-  .btn-registrase,
-  .btn-header {
-    list-style: none;
-    margin-left: 20px;
-    padding: 10px 20px 10px 20px;
-    background-color: transparent;
-    border: none;
-    border-radius: 8px;
-    list-style: none;
-    color: white;
-  }
 
-  .btn-header {
-    list-style: none;
-  }
-
-  .btn-registrarse {
-    list-style: none;
-    margin-left: 20px;
-    padding: 10px 20px 10px 20px;
-    background-color: transparent;
-    border: none;
-    border-radius: 8px;
-    list-style: none;
-    color: white;
-    text-decoration: none;
-  }
-
-  /* botones izquierda */
-  .logo {
-    list-style: none;
-    color: white;
-  }
 
   /*   <-------------------------fin stiles of header ---------------------->   */
 }
