@@ -1,285 +1,290 @@
-    
-*{
-box-sizing: border-box;
-padding: 0;
-margin:  0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
-
-.hr{
-
- height: 10px;
-  background-color:#9f3647; 
-}
-
-
-/* stiles of header*/
-header{
-  position:fixed;
-   border: 1px solid #9f3647;
+.hr {
+  height: 10px;
   background-color: #9f3647;
-
+}
+/* stiles of header*/
+header {
+  position: fixed;
+  border: 1px solid #9f3647;
+  background-color: #9f3647;
 }
 /* botones derecha */
-.btn-tendencias , .btn-registrase , .btn-header{
+.btn-tendencias,
+.btn-registrase,
+.btn-header {
   list-style: none;
-   margin-left: 20px;
-padding: 10px 20px 10px 20px;
-background-color: transparent;
-border: none;
-border-radius: 8px; 
-list-style: none;
-color: white;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  list-style: none;
+  color: white;
 }
-.btn-header{
+
+.btn-header {
   list-style: none;
-  
 }
-.btn-registrarse{
+
+.btn-registrarse {
   list-style: none;
-   margin-left: 20px;
-padding: 10px 20px 10px 20px;
-background-color: transparent;
-border: none;
-border-radius: 8px; 
-list-style: none;
-color: white;
-text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
 }
 
 /* botones izquierda */
-.logo{
- list-style: none;
- color:white;
+.logo {
+  list-style: none;
+  color: white;
 }
 /*  <---------------------imagen portada ------------------->*/
-.portada{
-   width: 100%;
-    height:500px;
-    background-image: url('../image/portadaUnSoloLugar.webp');
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    align-content: center;
-     text-align: center;
-      color: white;
-    
-  }
-    .letras{
-      color: white;
-      z-index: 20;
-     
-    }
+.portada {
+  width: 100%;
+  height: 500px;
+  background-image: url("../image/portadaUnSoloLugar.webp");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  color: white;
+}
+.letras {
+  color: white;
+  z-index: 20;
+}
 .hr {
-    width: 100%;
-    height: 2px;  
-    background-color: firebrick;
-    border-color: #9f3647;
-   margin-top: 100px;
-   margin-bottom: 50px;
+  width: 100%;
+  height: 2px;
+  background-color: firebrick;
+  border-color: #9f3647;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
-.btn-registrar{
-  padding: 10px 15px 10px 15px ;
-   border-radius: 5px;
-   background-color:#9f3647 ;
-   color:white; 
-   border: none;
+.btn-registrar {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #9f3647;
+  color: white;
+  border: none;
 }
-.title{
-font-family: "Nunito", sans-serif;
-font-size: 4rem;
+.title {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
 }
-.cards{
-  position:sticky;
-  display:flex;
+.cards {
+  position: sticky;
+  display: flex;
   background-color: #181419;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.card{
-    width: 200px;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    transition: all 0.5s ease;
-    margin: 20px 60px;
+.card {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  margin: 20px 60px;
 }
-img{
+img {
   width: 100%;
   height: auto;
 }
 /*buscador*/
-.buscador{
+.buscador {
   background-color: #181419;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
-   padding: 60px 10px 10px 0px ;
-   
+  padding: 60px 10px 10px 0px;
 }
-.btn-search{
- border-radius: 200px ;
- width: 80px;
- height: 40px;
- background-color: #9f3647;
- color:white;
- border-color: white;
+.btn-search {
+  border-radius: 200px;
+  width: 80px;
+  height: 40px;
+  background-color: #9f3647;
+  color: white;
+  border-color: white;
 }
-.txt-search{
-   border-radius: 200px ;
- width: 300px;
- height: 40px;
- background-color:white;
- color:black;
- border-color: white;
- margin-right: 10px;
+.txt-search {
+  border-radius: 200px;
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border-color: white;
+  margin-right: 10px;
 }
-.title-section{
- font-family: "Nunito", sans-serif;
+.title-section {
+  font-family: "Nunito", sans-serif;
 }
 
-.paginator{
+.paginator {
   padding: 50px 50px;
   background-color: #181419;
- display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.btn-paginator{
-            border-radius: 5px;
-            border: 1px solid white;
-            box-sizing: content-box;
-            margin-top:50px;
-            margin-left:20px;
-            background-color:#9f3647;
-            color: #ffffff;
-            padding: 1rem 1rem;
-            font-size: 1rem;
-            font-weight: 500;
-            text-decoration: none;
-            margin-bottom:60px;
-             /* Agregar efecto de botón presionado */
-             transition: transform 0.3s, box-shadow 0.3s;
-             &:hover {
-                 background-color: #9f3647;
-                 transform: scale(0.95);
-                 box-shadow: 0 0 10px rgba(12, 10, 10, 0.3);
-             }
-          }
+.btn-paginator {
+  border-radius: 5px;
+  border: 1px solid white;
+  box-sizing: content-box;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: #9f3647;
+  color: #ffffff;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 60px;
+  /* Agregar efecto de botón presionado */
+  transition: transform 0.3s, box-shadow 0.3s;
+  &:hover {
+    background-color: #9f3647;
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(12, 10, 10, 0.3);
+  }
+}
 
 /* aclamadas*/
 
-.txt-aclamadas{
-
+.txt-aclamadas {
   font-family: "Nunito", sans-serif;
-  color:white
+  color: white;
 }
 
-.aclamadas{
-   background-color: #181419;
-
+.aclamadas {
+  background-color: #181419;
 }
 
-.cards-aclamadas{
-   position:relative;
-  display:flex;
- 
+.cards-aclamadas {
+  position: relative;
+  display: flex;
+
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction:row;
+  flex-direction: row;
 }
-.card-aclamadas{
-                    width: 200px;
-                    height: 300px;
-                    position: relative;
-                    overflow: hidden;
-                    border-radius: 10px;
-                    transition: all 0.5s ease;
-                    margin: 10px 10px;
+.card-aclamadas {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  margin: 10px 10px;
 }
-img{
+img {
   width: 100%;
   height: auto;
 }
 
-
-
-
-
-
-
-
-
-
 /*footer*/
 
-.nav-footer{
-
-background-color: #9f3647;
- color:white ; 
- display: flex;
- justify-content: center;
-
+.nav-footer {
+  background-color: #9f3647;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
-
 
 .nav-list {
   display: flex;
   align-content: center;
-padding: 20px 20px ;
- text-decoration: none;
+  padding: 20px 20px;
+  text-decoration: none;
 }
 
- .nav-list .list-item {
-  padding: 20px 20px ;
+.nav-list .list-item {
+  padding: 20px 20px;
   text-decoration: none;
   list-style: none;
   list-style-type: none;
   color: #ffffff;
 }
 
-
- .nav-list .list-item-black{
-   
+.nav-list .list-item-black {
   color: #ffffff;
   background-color: black;
   border-radius: 5px;
 }
 
- .nav-list .list-item .link-nav{
- 
-  padding: 20px 20px ;
+.nav-list .list-item .link-nav {
+  padding: 20px 20px;
   text-decoration: none;
   list-style: none;
   list-style-type: none;
   color: #ffffff;
 }
-.administradorPeliculas{
-background-color: black;
-border-radius:10px;
+.administradorPeliculas {
+  background-color: black;
+  border-radius: 10px;
 }
 
+/*<------------------------------------ movile --------------------------------->*/
 
-
-
-
+@media screen  and (max-width: 650px) {
+  /*   <-------------------------- stiles of header ------------------------>   */
+  header {
  
+  }
+  /* botones derecha */
 
-  /*  . {
-        display: flex;
-        flex-direction: column;  Hace que los elementos estén uno debajo del otro 
-        align-items: center;  Centra los elementos verticalmente 
-    }/*
+  .btn-tendencias,
+  .btn-registrase,
+  .btn-header {
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    list-style: none;
+    color: white;
+  }
 
-   
+  .btn-header {
+    list-style: none;
+  }
 
+  .btn-registrarse {
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+  }
 
+  /* botones izquierda */
+  .logo {
+    list-style: none;
+    color: white;
+  }
 
+  /*   <-------------------------fin stiles of header ---------------------->   */
+}
