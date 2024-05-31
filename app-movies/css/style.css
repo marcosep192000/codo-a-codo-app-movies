@@ -247,16 +247,37 @@ img {
 /*<------------------------------------ movile --------------------------------->*/
 
 @media screen  and (max-width: 650px) {
-  /*   <-------------------------- stiles of header ------------------------>   */
+  /* <-------------------------- stiles of header ------------------------>   */
 
  .navegacion{
-  display:inline-block;
-  justify-content: center;
+  display:flex;
+  flex-direction: column;
   align-items: center;
+   background-color: red;
  }
  .lista{
   display: flex;
+  padding:6px;
  }
+ .lista{list-style: none;}
+ 
+ .tendencias , .registrarse{
+  margin: 15px; 
+  text-decoration: none;
+background-color: transparent;
+  border-radius: 9px;
+  padding: 7px 18px 7px 15px;
+  color: rgb(76, 84, 195);
+ }
+
+ .iniciar_sesion{
+   margin: 15px; 
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 7px 18px 7px 15px;
+  color: white;
+ }
+
 
 
 
