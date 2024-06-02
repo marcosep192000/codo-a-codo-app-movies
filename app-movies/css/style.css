@@ -141,7 +141,7 @@ background-color: #7f2b39;
   align-items: center;
   text-align: center;
  
- 
+ padding: 0px 110px 100px 100px;
 }
 .card {
   width: 200px;
@@ -151,7 +151,18 @@ background-color: #7f2b39;
   border-radius: 10px;
   transition: all 0.5s ease;
   margin: 20px 20px;
+
 }
+.card-body{
+  display: none;
+}
+.tendencias_hoy{
+text-align: center;
+ font-family: "Nunito", sans-serif;
+}
+
+
+
 img {
   width: 100%;
   height: auto;
