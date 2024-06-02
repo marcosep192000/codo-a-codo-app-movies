@@ -4,17 +4,64 @@
   margin: 0;
 }
 
+/*---------  navegacion ---------------*/
+ .navegacion{
+  display:flex;
+  align-items: center;
+  align-content: center;
+ justify-content: space-between;
+   background-color:#7f2b39;
+   
+ }
+ .logo{
+  margin-top: 10px;
+  display: flex;
+  padding:6px;
+ }
+
+ .lista{
+    display: flex;
+  list-style: none;
+  margin-top: 10px;
+
+}
+  
+
+ .bt-claro{
+  margin: 15px; 
+  text-decoration: none;
+background-color: transparent;
+  border-radius: 9px;
+  padding: 10px 15px 10px 15px;
+  color: white
+ }
+  .bt-claro:hover{
+ background-color: transparent;
+box-shadow: 0px 0px 41px -7px rgba(0,0,0,0.79);
+-webkit-box-shadow: 0px 0px 41px -7px rgba(0,0,0,0.79);
+-moz-box-shadow: 0px 0px 41px -7px rgba(0,0,0,0.79);
+ }
+
+
+ .iniciar_sesion{
+   margin: 15px; 
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 7px 18px 7px 15px;
+  color: white;
+  background-color: #181419;
+  padding: 10px 15px 10px 15px ;
+ }
+
+ .iniciar_sesion:hover{
+background-color: #7f2b39;
+ }
+
+/*---------  fin navegacion ---------------*/
 
 
 
-
-
-
-
-
-
-
-
+ fin hover navegacion ---------------*/
 
 /* stiles of header*/
 
@@ -253,7 +300,7 @@ img {
   display:flex;
   flex-direction: column;
   align-items: center;
-   background-color: red;
+background-color: #7f2b39;
  }
  .lista{
   display: flex;
@@ -261,7 +308,7 @@ img {
  }
  .lista{list-style: none;}
   
- 
+
  .tendencias , .registrarse{
   margin: 15px; 
   text-decoration: none;
@@ -269,6 +316,7 @@ background-color: transparent;
   border-radius: 9px;
   padding: 7px 18px 7px 15px;
   color: rgb(76, 84, 195);
+
  }
 
  .iniciar_sesion{
