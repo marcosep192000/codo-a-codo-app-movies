@@ -122,8 +122,8 @@ background-color: #7f2b39;
   height: 2px;
   background-color: firebrick;
   border-color: #9f3647;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top:60px;
+  margin-bottom: 60px;
 }
 .btn-registrar {
   padding: 10px 15px 10px 15px;
@@ -145,7 +145,7 @@ background-color: #7f2b39;
   align-items: center;
   text-align: center;
  
- padding: 0px 200px 10px 200px;
+ padding: 0px 100px 10px 100px;
 }
 .card {
   width: 200px;
