@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+background-image: url('../image/image-register.jpg');
+    background-color: #181419;
+}
+.cards{
+  display:flex;
+  background-color:transparent;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-register {
+   
+display: block;
+}
+
+
+.card{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 60px;
+    background-color:#1b0801 ;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    padding-bottom: 20px ;
+}
+.btn-registar{
+    border-radius: 10px;
+ width: 80%;
+ height: 40px;
+ background-color: #9f3647;
+ color:white;
+ border-color: white;
+}
+.txt-search{
+border-radius: 200px ;
+ width: 400px;
+ height: 40px;
+ background-color:#221924a8;
+ color:#000000;
+ border-color:#9f3647;
+ color: white;
+ margin-right: 10px;
+ margin-bottom: 20px;
+}
+.title-section{
+ font-family: "Nunito", sans-serif;
+}
+.condiciones {
+    display: flex;
+    justify-content: left ;
+margin-left: 50px;
+}
+
+.btn-registar{
+ border-radius: 10px;
+ width: 80%;
+ height: 40px;
+ background-color: #9f3647;
+ color:white;
+ border-color: white;
+}

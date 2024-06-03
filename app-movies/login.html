@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <div class="container cards">
+        <div class="card">
+            <div class="card-title">
+                <h1><strong>Iniciar Sesión</strong></h1>
+            </div>
+            <div class="card-body">
+                <form class="form-register" id="form-register">
+                    <input class="txt-search" type="text" placeholder="Mail" id="mail" name="mail" required>
+                    <input class="txt-search" type="password" placeholder="Password" id="password" name="password" required>
+                    <div class="registrar">
+                        <button type="submit" class="btn-registar">Login</button>
+                    </div>
+                    <div id="error-message" style="color: red;"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/validation-login.js"></script>
+</body>
+</html>
